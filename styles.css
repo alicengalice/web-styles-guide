@@ -1,103 +1,149 @@
+/* Universal */
+
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header */
 main p {
-    background-color: rgb(202, 137, 39);
-    font-family: 'Comfortaa', cursive;
-    padding: 50px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 50px;
+  background-color: rgb(202, 137, 39);
+  font-family: "Comfortaa", cursive;
+  padding: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
 }
+
+/* Navigation Bar */
 
 nav {
-    background-color: bisque;
+  background-color: bisque;
 }
 
 nav ul {
-    text-align: center;
-
+  text-align: center;
 }
 
 nav li {
-    display: inline-block;
-    margin: 40px;
-    border: 1px solid whitesmoke;
-    font-size: 20px;
+  display: inline-block;
+  margin: 40px;
+  border: 1px solid whitesmoke;
+  font-size: 20px;
 }
 
-nav a:link, a:visited {
-    color: rgb(202, 137, 39);
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    background-color: white;
+nav a:link,
+a:visited {
+  color: rgb(202, 137, 39);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
 }
 
-nav a:hover, a:active {
-    background-color: brown;
-    color: white;
+nav a:hover,
+a:active {
+  background-color: brown;
+  color: white;
 }
+
+/* Heading title */
 
 h1 {
-    padding: 40px 30px 0px 30px;
-    text-transform: uppercase;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
-    font-weight: 100px;
-    text-align: center;
+  padding: 40px 30px 0px 30px;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  text-align: center;
 }
 
-#colours , #fonts {
-    border: 1px solid black;
-    margin: 20px;
-    padding: 10px;
+#colours,
+#fonts {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
 }
+
+/* Colours section */
 
 .colour-box {
-    border: 1px solid white;
-    color: aliceblue;
-    padding: 20px;
-    margin: 20px;
-    width: 600px;
-    height: 100px;
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
+  border: 1px solid white;
+  color: aliceblue;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
 }
 
 .peachpuff {
-    background-color: peachpuff;
+  background-color: peachpuff;
 }
 
 .olivedrab {
-    background-color: olivedrab;
+  background-color: olivedrab;
 }
 
 .maroon {
-    background-color: maroon;
+  background-color: maroon;
 }
 
 .gold {
-    background-color: gold;
+  background-color: gold;
 }
 
 .lightcoral {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 .yellowgreen {
-    background-color: yellowgreen;
+  background-color: yellowgreen;
+}
+
+/* Fonts section */
+
+#fonts h2 {
+  font-size: 30px;
+}
+
+.font-box {
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.libre-baskerville {
+  font-family: "Libre Baskerville", serif;
+}
+
+.jetbrains-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
 }
